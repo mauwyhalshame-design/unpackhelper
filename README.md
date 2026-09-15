@@ -1,5 +1,7 @@
 # UnpackHelper
 
+[![Tests](https://github.com/mauwyhalshame-design/unpackhelper/actions/workflows/tests.yml/badge.svg)](https://github.com/mauwyhalshame-design/unpackhelper/actions/workflows/tests.yml) [![Repository](https://img.shields.io/badge/repository-public-brightgreen)](https://github.com/mauwyhalshame-design/unpackhelper) [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
+
 **UnpackHelper** أداة تحليل ساكنة مكتوبة بلغة **Python** لاكتشاف مؤشرات برامج التغليف (Packers) داخل ملفات Windows PE مثل `.exe` و`.dll`. تقرأ الأداة بنية الملف وترويساته وأقسامه وبيانات Imports/Exports وبعض العلامات النصية، ثم تعرض الأدلة ودرجة الثقة دون تشغيل الملف أو فكّه في الذاكرة.
 
 > **تنبيه أمني:** نتيجة الأداة احتمالية وليست حكمًا نهائيًا على سلامة الملف أو كونه ضارًا. وجود اسم Packer أو دالة مستوردة منفردة لا يثبت الخباثة.
